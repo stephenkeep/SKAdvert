@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC28149B1525CBFB004D07EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC28149A1525CBFB004D07EE /* UIKit.framework */; };
+		DC28149D1525CBFB004D07EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC28149C1525CBFB004D07EE /* Foundation.framework */; };
+		DC28149F1525CBFB004D07EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC28149E1525CBFB004D07EE /* CoreGraphics.framework */; };
+		DC2814A51525CBFB004D07EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC2814A31525CBFB004D07EE /* InfoPlist.strings */; };
+		DC2814A71525CBFB004D07EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2814A61525CBFB004D07EE /* main.m */; };
+		DC2814AB1525CBFB004D07EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2814AA1525CBFB004D07EE /* AppDelegate.m */; };
+		DC2814AE1525CBFB004D07EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2814AD1525CBFB004D07EE /* ViewController.m */; };
+		DC2814B11525CBFB004D07EE /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2814AF1525CBFB004D07EE /* ViewController_iPhone.xib */; };
+		DC2814B41525CBFB004D07EE /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2814B21525CBFB004D07EE /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC2814961525CBFB004D07EE /* SKAdvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKAdvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC28149A1525CBFB004D07EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC28149C1525CBFB004D07EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC28149E1525CBFB004D07EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC2814A21525CBFB004D07EE /* SKAdvert-Info.plist */ = {isa = PBXFileReference; path = "SKAdvert-Info.plist"; sourceTree = "<group>"; };
+		DC2814A41525CBFB004D07EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC2814A61525CBFB004D07EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC2814A81525CBFB004D07EE /* SKAdvert-Prefix.pch */ = {isa = PBXFileReference; path = "SKAdvert-Prefix.pch"; sourceTree = "<group>"; };
+		DC2814A91525CBFB004D07EE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC2814AA1525CBFB004D07EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC2814AC1525CBFB004D07EE /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		DC2814AD1525CBFB004D07EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC2814B01525CBFB004D07EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		DC2814B31525CBFB004D07EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC2814931525CBFB004D07EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC28149B1525CBFB004D07EE /* UIKit.framework in Frameworks */,
+				DC28149D1525CBFB004D07EE /* Foundation.framework in Frameworks */,
+				DC28149F1525CBFB004D07EE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC28148B1525CBFB004D07EE = {
+			isa = PBXGroup;
+			children = (
+				DC2814A01525CBFB004D07EE /* SKAdvert */,
+				DC2814991525CBFB004D07EE /* Frameworks */,
+				DC2814971525CBFB004D07EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC2814971525CBFB004D07EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC2814961525CBFB004D07EE /* SKAdvert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC2814991525CBFB004D07EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC28149A1525CBFB004D07EE /* UIKit.framework */,
+				DC28149C1525CBFB004D07EE /* Foundation.framework */,
+				DC28149E1525CBFB004D07EE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC2814A01525CBFB004D07EE /* SKAdvert */ = {
+			isa = PBXGroup;
+			children = (
+				DC2814A91525CBFB004D07EE /* AppDelegate.h */,
+				DC2814AA1525CBFB004D07EE /* AppDelegate.m */,
+				DC2814AC1525CBFB004D07EE /* ViewController.h */,
+				DC2814AD1525CBFB004D07EE /* ViewController.m */,
+				DC2814AF1525CBFB004D07EE /* ViewController_iPhone.xib */,
+				DC2814B21525CBFB004D07EE /* ViewController_iPad.xib */,
+				DC2814A11525CBFB004D07EE /* Supporting Files */,
+			);
+			path = SKAdvert;
+			sourceTree = "<group>";
+		};
+		DC2814A11525CBFB004D07EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC2814A21525CBFB004D07EE /* SKAdvert-Info.plist */,
+				DC2814A31525CBFB004D07EE /* InfoPlist.strings */,
+				DC2814A61525CBFB004D07EE /* main.m */,
+				DC2814A81525CBFB004D07EE /* SKAdvert-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC2814951525CBFB004D07EE /* SKAdvert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2814B71525CBFB004D07EE /* Build configuration list for PBXNativeTarget "SKAdvert" */;
+			buildPhases = (
+				DC2814921525CBFB004D07EE /* Sources */,
+				DC2814931525CBFB004D07EE /* Frameworks */,
+				DC2814941525CBFB004D07EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKAdvert;
+			productName = SKAdvert;
+			productReference = DC2814961525CBFB004D07EE /* SKAdvert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC28148D1525CBFB004D07EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DC2814901525CBFB004D07EE /* Build configuration list for PBXProject "SKAdvert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC28148B1525CBFB004D07EE;
+			productRefGroup = DC2814971525CBFB004D07EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC2814951525CBFB004D07EE /* SKAdvert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC2814941525CBFB004D07EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2814A51525CBFB004D07EE /* InfoPlist.strings in Resources */,
+				DC2814B11525CBFB004D07EE /* ViewController_iPhone.xib in Resources */,
+				DC2814B41525CBFB004D07EE /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC2814921525CBFB004D07EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2814A71525CBFB004D07EE /* main.m in Sources */,
+				DC2814AB1525CBFB004D07EE /* AppDelegate.m in Sources */,
+				DC2814AE1525CBFB004D07EE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC2814A31525CBFB004D07EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2814A41525CBFB004D07EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC2814AF1525CBFB004D07EE /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2814B01525CBFB004D07EE /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		DC2814B21525CBFB004D07EE /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2814B31525CBFB004D07EE /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC2814B51525CBFB004D07EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC2814B61525CBFB004D07EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC2814B81525CBFB004D07EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKAdvert/SKAdvert-Prefix.pch";
+				INFOPLIST_FILE = "SKAdvert/SKAdvert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC2814B91525CBFB004D07EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKAdvert/SKAdvert-Prefix.pch";
+				INFOPLIST_FILE = "SKAdvert/SKAdvert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC2814901525CBFB004D07EE /* Build configuration list for PBXProject "SKAdvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2814B51525CBFB004D07EE /* Debug */,
+				DC2814B61525CBFB004D07EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2814B71525CBFB004D07EE /* Build configuration list for PBXNativeTarget "SKAdvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2814B81525CBFB004D07EE /* Debug */,
+				DC2814B91525CBFB004D07EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC28148D1525CBFB004D07EE /* Project object */;
+}
