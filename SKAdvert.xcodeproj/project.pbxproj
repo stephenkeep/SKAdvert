@@ -16,6 +16,12 @@
 		DC2814AE1525CBFB004D07EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2814AD1525CBFB004D07EE /* ViewController.m */; };
 		DC2814B11525CBFB004D07EE /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2814AF1525CBFB004D07EE /* ViewController_iPhone.xib */; };
 		DC2814B41525CBFB004D07EE /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2814B21525CBFB004D07EE /* ViewController_iPad.xib */; };
+		DC2814BE1525CDBA004D07EE /* SKAdvertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2814BC1525CC1F004D07EE /* SKAdvertViewController.m */; };
+		DC2814DB1525D7A3004D07EE /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC2814D81525D7A3004D07EE /* SVWebViewController.bundle */; };
+		DC2814DC1525D7A3004D07EE /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2814DA1525D7A3004D07EE /* SVWebViewController.m */; };
+		DC2814FD1525D976004D07EE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2814FC1525D976004D07EE /* MessageUI.framework */; };
+		DC2815011525DCCF004D07EE /* advert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2814FF1525DCCF004D07EE /* advert@2x.png */; };
+		DC2815021525DCCF004D07EE /* advert.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2815001525DCCF004D07EE /* advert.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +29,24 @@
 		DC28149A1525CBFB004D07EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DC28149C1525CBFB004D07EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC28149E1525CBFB004D07EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DC2814A21525CBFB004D07EE /* SKAdvert-Info.plist */ = {isa = PBXFileReference; path = "SKAdvert-Info.plist"; sourceTree = "<group>"; };
+		DC2814A21525CBFB004D07EE /* SKAdvert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKAdvert-Info.plist"; sourceTree = "<group>"; };
 		DC2814A41525CBFB004D07EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC2814A61525CBFB004D07EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DC2814A81525CBFB004D07EE /* SKAdvert-Prefix.pch */ = {isa = PBXFileReference; path = "SKAdvert-Prefix.pch"; sourceTree = "<group>"; };
-		DC2814A91525CBFB004D07EE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC2814A81525CBFB004D07EE /* SKAdvert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKAdvert-Prefix.pch"; sourceTree = "<group>"; };
+		DC2814A91525CBFB004D07EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DC2814AA1525CBFB004D07EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DC2814AC1525CBFB004D07EE /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		DC2814AC1525CBFB004D07EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DC2814AD1525CBFB004D07EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DC2814B01525CBFB004D07EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		DC2814B31525CBFB004D07EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		DC2814BB1525CC1F004D07EE /* SKAdvertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKAdvertViewController.h; sourceTree = "<group>"; };
+		DC2814BC1525CC1F004D07EE /* SKAdvertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAdvertViewController.m; sourceTree = "<group>"; };
+		DC2814D81525D7A3004D07EE /* SVWebViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVWebViewController.bundle; sourceTree = "<group>"; };
+		DC2814D91525D7A3004D07EE /* SVWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewController.h; sourceTree = "<group>"; };
+		DC2814DA1525D7A3004D07EE /* SVWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewController.m; sourceTree = "<group>"; };
+		DC2814FC1525D976004D07EE /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DC2814FF1525DCCF004D07EE /* advert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "advert@2x.png"; sourceTree = "<group>"; };
+		DC2815001525DCCF004D07EE /* advert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = advert.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC2814FD1525D976004D07EE /* MessageUI.framework in Frameworks */,
 				DC28149B1525CBFB004D07EE /* UIKit.framework in Frameworks */,
 				DC28149D1525CBFB004D07EE /* Foundation.framework in Frameworks */,
 				DC28149F1525CBFB004D07EE /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +84,7 @@
 		DC2814991525CBFB004D07EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DC2814FC1525D976004D07EE /* MessageUI.framework */,
 				DC28149A1525CBFB004D07EE /* UIKit.framework */,
 				DC28149C1525CBFB004D07EE /* Foundation.framework */,
 				DC28149E1525CBFB004D07EE /* CoreGraphics.framework */,
@@ -79,6 +95,7 @@
 		DC2814A01525CBFB004D07EE /* SKAdvert */ = {
 			isa = PBXGroup;
 			children = (
+				DC2814BA1525CC0E004D07EE /* SKAdvertViewController */,
 				DC2814A91525CBFB004D07EE /* AppDelegate.h */,
 				DC2814AA1525CBFB004D07EE /* AppDelegate.m */,
 				DC2814AC1525CBFB004D07EE /* ViewController.h */,
@@ -99,6 +116,36 @@
 				DC2814A81525CBFB004D07EE /* SKAdvert-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC2814BA1525CC0E004D07EE /* SKAdvertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DC2814FE1525DCB9004D07EE /* advertImages */,
+				DC2814C41525D74E004D07EE /* adWebView */,
+				DC2814BB1525CC1F004D07EE /* SKAdvertViewController.h */,
+				DC2814BC1525CC1F004D07EE /* SKAdvertViewController.m */,
+			);
+			name = SKAdvertViewController;
+			sourceTree = "<group>";
+		};
+		DC2814C41525D74E004D07EE /* adWebView */ = {
+			isa = PBXGroup;
+			children = (
+				DC2814D81525D7A3004D07EE /* SVWebViewController.bundle */,
+				DC2814D91525D7A3004D07EE /* SVWebViewController.h */,
+				DC2814DA1525D7A3004D07EE /* SVWebViewController.m */,
+			);
+			name = adWebView;
+			sourceTree = "<group>";
+		};
+		DC2814FE1525DCB9004D07EE /* advertImages */ = {
+			isa = PBXGroup;
+			children = (
+				DC2814FF1525DCCF004D07EE /* advert@2x.png */,
+				DC2815001525DCCF004D07EE /* advert.png */,
+			);
+			name = advertImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +201,9 @@
 				DC2814A51525CBFB004D07EE /* InfoPlist.strings in Resources */,
 				DC2814B11525CBFB004D07EE /* ViewController_iPhone.xib in Resources */,
 				DC2814B41525CBFB004D07EE /* ViewController_iPad.xib in Resources */,
+				DC2814DB1525D7A3004D07EE /* SVWebViewController.bundle in Resources */,
+				DC2815011525DCCF004D07EE /* advert@2x.png in Resources */,
+				DC2815021525DCCF004D07EE /* advert.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,8 +215,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC2814A71525CBFB004D07EE /* main.m in Sources */,
+				DC2814BE1525CDBA004D07EE /* SKAdvertViewController.m in Sources */,
 				DC2814AB1525CBFB004D07EE /* AppDelegate.m in Sources */,
 				DC2814AE1525CBFB004D07EE /* ViewController.m in Sources */,
+				DC2814DC1525D7A3004D07EE /* SVWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +257,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -231,7 +283,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -253,6 +305,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SKAdvert/SKAdvert-Prefix.pch";
 				INFOPLIST_FILE = "SKAdvert/SKAdvert-Info.plist";
+				OTHER_LDFLAGS = "-fobjc-arc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -264,6 +317,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SKAdvert/SKAdvert-Prefix.pch";
 				INFOPLIST_FILE = "SKAdvert/SKAdvert-Info.plist";
+				OTHER_LDFLAGS = "-fobjc-arc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

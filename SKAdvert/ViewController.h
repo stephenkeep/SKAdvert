@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SKAdvertViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    SKAdvertViewController *adView;
+}
+
+@property (nonatomic, strong) SKAdvertViewController *adView;
 
 @end

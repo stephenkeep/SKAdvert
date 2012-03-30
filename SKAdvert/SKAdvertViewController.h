@@ -8,6 +8,24 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SKAdvertViewController : UIViewController
+static NSString *const SKAdvertLandscape = @"SKAdvertLandscape";
+static NSString *const SKAdvertPortrait = @"SKAdvertPortrait";
+static NSString *const SKAdvertiPadLandscape = @"SKAdvertiPadLandscape";
+static NSString *const SKAdvertiPadPortrait = @"SKAdvertiPadPortrait";
+
+#define REQUEST_URL @"http://www.quipper.com"
+
+@interface SKAdvertViewController : UIViewController {
+    IBOutlet UIButton *adButton;
+}
+
+/** The button shown to the user that takes up all the entire view's frame. */
+@property (nonatomic, strong) UIButton *adButton;
+
+/** Mimics iAd. See ADBannerView. */
+@property (nonatomic, copy) NSSet *requiredContentSizeIdentifiers;
+@property (nonatomic, copy) NSString *currentContentSizeIdentifier;
+
+- (id) initWithOrigin:(CGPoint) point;
 
 @end

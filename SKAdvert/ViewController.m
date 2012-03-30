@@ -14,11 +14,16 @@
 
 @implementation ViewController
 
+@synthesize adView;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	self.adView = [[SKAdvertViewController alloc] initWithOrigin:CGPointMake(0, self.view.frame.size.height)];
+    [self.view addSubview:adView.view];
+
 }
+
 
 - (void)viewDidUnload
 {
